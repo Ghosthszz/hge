@@ -57,9 +57,3 @@ Hero com partículas de luz, brilho pulsando nos postes, título em gradiente an
 - As fotos são carregadas do próprio site da HGE; para uso 100% offline, baixe os arquivos para `assets/img/` e troque as URLs em `products.js`.
 
 
-## Atualização v5 — imagens locais
-
-- `assets/js/products.js` agora aponta para `/assets/products/` em vez de depender das URLs remotas.
-- `assets/products-download-manifest.json` lista as imagens oficiais de origem.
-- Para baixar as fotografias, conecte o computador à internet e execute `BAIXAR-IMAGENS.bat` (Windows) ou `python baixar_imagens.py` (Python 3).
-- **Importante:** este pacote foi preparado num ambiente sem acesso DNS à internet; portanto, as fotografias ainda não foram incluídas neste ZIP. Execute o downloader antes de publicar para preencher `assets/products/`. O script informa as URLs que falharem.
