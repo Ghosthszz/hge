@@ -1,0 +1,51 @@
+CORREÇÃO v6: products.js agora resolve assets/products relativamente ao próprio script, funcionando também em subpastas como /main/ e /pages/. A página inicial e páginas de categoria usam fotografias locais em vez das ilustrações SVG.
+
+IMPORTANTE: copie estes arquivos sobre a pasta existente onde as 36 imagens já foram baixadas. Mantenha assets/products/ com os arquivos baixados. Os nomes usados no site precisam existir exatamente nessa pasta; imagens ausentes ainda não poderão aparecer.
+As referências no código foram alteradas para /assets/products/. Este ambiente não conseguiu acessar o domínio oficial para baixar as fotos. Execute BAIXAR-IMAGENS.bat em Windows com internet antes de publicar.
+
+URLs de origem:
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/10-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/11.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/17-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/20-600x506.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/23-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/2X9-EMBUTIR-LEITOSA-655x655-2-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/31-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/32.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/8.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/9-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/BALI-P0102-655x655-1-600x600.png
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/BR-LUMENS-BALI-P01-02-03-160LMV-5K-NOVA-655x655-1-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/BR-LUMENS-BALI-P01-02-03-160LMV-5K-NOVA-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/BR-LUMENS-BALI-P01-02-03-160LMV-5K-NOVA-655x655-2-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/DECORATIVA-IMAGEM-FUNDO-1-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/DECORATIVA-IMAGEM-FUNDO-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/LEITOSA-EMBUTIR-SLIM-655x655-1-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/LUMINARIA-4X18-EMBUTIR-655x655-1-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/PRISMATICA-16-GANCHo-600x600.webp
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/PRISMATICA-16-MEDIDAS-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/PRISMATICA-ALUMINIO-FOTO-GALPAO-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/Potencia-200W-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/bali-m-655x655-1-600x600.png
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/empresa-especializada-em-iluminacao-publica-melhor-empresa-de-iluminacao-publica-do-brasil3-1-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/high-bay-1-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/high-bay-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/iluminacao-publica-empresa-especializada-em-iluminacao-publica-prefeitura-municipios-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/iluminacao-publica-empresa-especializada-em-iluminacao-publica-prefeitura-municipios1-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-2x18-embutir-1-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-2x18-embutir-1-655x655-2-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-2x18-embutir-2-655x655-1-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-embutir-2x18-120cm-655x655-2-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-industrial2-1.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-ornamental-publica-600x600.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/08/luminaria-publica-ornamental-1.jpg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/Lampadas-led-para-o-natal-pisca-pisca-de-natal-melhor-pisca-pisca-de-natal-17-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/Lampadas-led-para-o-natal-pisca-pisca-de-natal-melhor-pisca-pisca-de-natal-20-600x506.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/Lampadas-led-para-o-natal-pisca-pisca-de-natal-melhor-pisca-pisca-de-natal-23-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/Lampadas-led-para-o-natal-pisca-pisca-de-natal-melhor-pisca-pisca-de-natal-31-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/Lampadas-led-para-o-natal-pisca-pisca-de-natal-melhor-pisca-pisca-de-natal-32.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/led-pisca-pisca-azul-escuro.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/pisca-pisca-de-natal-lampada-de-led-para-enfeite-natalino-enfeite-de-natal-10-600x600.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/pisca-pisca-de-natal-lampada-de-led-para-enfeite-natalino-enfeite-de-natal-11.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/pisca-pisca-de-natal-lampada-de-led-para-enfeite-natalino-enfeite-de-natal-8.jpeg
+https://hgeiluminacao.com.br/wp-content/uploads/2025/09/pisca-pisca-de-natal-lampada-de-led-para-enfeite-natalino-enfeite-de-natal-9-600x600.jpeg
